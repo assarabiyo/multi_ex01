@@ -59,6 +59,7 @@ nav a i {
 }
 .profile h3 {
     margin-top: 20px;
+    font-style: italic;
 }
 .profile p {
     color: #666;
@@ -73,12 +74,14 @@ nav a i {
     margin: 30px 0;
 }
 .link li {
-    display: flex;
-    align-items: center;
     background-color: rgba(250, 223, 231, 0.5);
     border: 1px solid rgb(250, 223, 231);
     border-radius: 20px;
     padding: 10px;
+}
+.link a{
+        display: flex;
+    align-items: center;
 }
 .li-img {
     width: 45px;
@@ -95,6 +98,7 @@ nav a i {
 }
 .li-subtxt {
     width: calc(100% - 30px);
+    padding : 0 20px 0 0;
 }
 .li-subtxt span {
     font-weight: 700;
@@ -113,14 +117,25 @@ nav a i {
 .page2 .li-img {
     color: rgb(223, 137, 24);
 }
+.page2 .li-subtxt span{
+    display: block;
+    width: 250px;
+    border-bottom: 1px solid rgb(243, 200, 59);
+}
 
 /* 3페이지 */
-.page3 .link li {
-    background-color: rgba(183, 255, 219, 0.5);
-    border: 1px solid rgb(170, 255, 188);
+.gallery{
+    width: 100%;
+    display: flex;
 }
-.page3 .li-img {
-    color: rgb(22, 172, 114);
+.gall_img{
+    width: calc(100% / 3 - 10px);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 /* 4페이지 */
