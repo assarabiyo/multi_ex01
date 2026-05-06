@@ -29,6 +29,15 @@ nav {
 nav a i {
     color: pink;
 }
+.page2 nav a i {
+    color: rgb(255, 218, 10);
+}
+.page3 nav a i {
+    color: rgb(134, 207, 144);
+}
+.page4 nav a i {
+    color: rgb(143, 179, 255);
+}
 
 /* 프로필칸 */
 .profile {
@@ -95,6 +104,34 @@ nav a i {
     font-size: 14px;
     color: #666;
 }
+
+/* 2페이지 */
+.page2 .link li {
+    background-color: rgba(255, 226, 183, 0.5);
+    border: 1px solid rgb(255, 228, 170);
+}
+.page2 .li-img {
+    color: rgb(223, 137, 24);
+}
+
+/* 3페이지 */
+.page3 .link li {
+    background-color: rgba(183, 255, 219, 0.5);
+    border: 1px solid rgb(170, 255, 188);
+}
+.page3 .li-img {
+    color: rgb(22, 172, 114);
+}
+
+/* 4페이지 */
+.page4 .link li {
+    background-color: rgba(183, 217, 255, 0.5);
+    border: 1px solid rgb(170, 193, 255);
+}
+.page4 .li-img {
+    color: rgb(49, 76, 230);
+}
+
 
 /* 다른 페이지 */
 .others {
