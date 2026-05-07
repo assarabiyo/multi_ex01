@@ -145,10 +145,10 @@ nav a i {
   position: absolute;
   width: 500px;
   z-index: 9999;
-
 }
 
 /* 4페이지 */
+
 .page4 .link li {
   background-color: rgba(183, 217, 255, 0.5);
   border: 1px solid rgb(170, 193, 255);
@@ -172,6 +172,6 @@ nav a i {
 }
 .others_list li.on {
   filter: brightness(0.8) saturate(2);
-    position: relative;
+  position: relative;
   z-index: 1;
 }
