@@ -65,6 +65,35 @@ nav a i {
   color: #666;
 }
 
+.pf-box {
+  margin: 10px 0;
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+}
+.pf-box li::marker {
+  content: "♥      ";
+  color: pink;
+  font-size: 10px;
+}
+
+.btn-view {
+  display: block;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  margin: auto;
+  color: #fff;
+  background: linear-gradient(90deg,rgb(255, 134, 181), pink, rgb(255, 134, 181));
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0px 5px 5px rgba(255,134,181,0.2);
+}
+.btn-view span{
+  font-size: 10px;
+}
+
+
 /* 링크 */
 .link {
   text-align: center;

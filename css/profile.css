@@ -1,0 +1,48 @@
+@import url(main.css);
+
+section a{
+    color: pink;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile h3{
+  font-style: normal;
+}
+
+/* 스킬박스 */
+
+.can-list-box{
+    margin: 20px 0;
+    padding-top: 10px;
+    border-top: 1px solid rgb(255, 238, 241);
+}
+.can-list-box h2{
+    color: pink;
+    font-size: smaller;
+    margin-bottom: 8px;
+}
+.can-list-box h2 span{
+    color: pink;
+    font-size: 10px
+}
+.i-can{
+    padding: 10px 20px;
+}
+.i-can li{
+    color: #666;
+    font-size: 14px;
+    
+}
+.i-can li::marker{
+      content: "●          ";
+      color: #ccc;
+    font-size: 4px;
+    line-height: 15px;
+}
